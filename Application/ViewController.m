@@ -15,8 +15,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
+
+- (void)viewDidAppear:(BOOL)animated
+{
+     [super viewDidAppear:animated];
+    
+    NSString *frameworkDirPath = [[NSBundle mainBundle] privateFrameworksPath];
+    NSString *frameworkBundlePath = [frameworkDirPath stringByAppendingPathComponent:@"Login.framework"];
+    NSBundle *frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
+    LoginViewController *loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:frameworkBundle];
+    loginViewController.modalPresentationStyle = UIModalPresentationOverFullScreen;
+    [self presentViewController:loginViewController animated:YES completion:nil];
+}
+
+
 
 
 @end

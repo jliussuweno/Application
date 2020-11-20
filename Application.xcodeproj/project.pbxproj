@@ -14,7 +14,65 @@
 		6FC732FB25674F4F00AB6D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC732FA25674F4F00AB6D4A /* Assets.xcassets */; };
 		6FC732FE25674F4F00AB6D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC732FC25674F4F00AB6D4A /* LaunchScreen.storyboard */; };
 		6FC7330125674F4F00AB6D4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7330025674F4F00AB6D4A /* main.m */; };
+		6FC7331A2567664D00AB6D4A /* Login.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC733182567664D00AB6D4A /* Login.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC7331D2567664D00AB6D4A /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC733162567664D00AB6D4A /* Login.framework */; };
+		6FC7331E2567664D00AB6D4A /* Login.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC733162567664D00AB6D4A /* Login.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6FC733272567666600AB6D4A /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC733242567666600AB6D4A /* LoginViewController.h */; };
+		6FC733282567666600AB6D4A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC733252567666600AB6D4A /* LoginViewController.m */; };
+		6FC733292567666600AB6D4A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC733262567666600AB6D4A /* LoginViewController.xib */; };
+		6FC73334256767B800AB6D4A /* Register.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC73332256767B800AB6D4A /* Register.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC73337256767B800AB6D4A /* Register.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC73330256767B800AB6D4A /* Register.framework */; };
+		6FC73338256767B800AB6D4A /* Register.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC73330256767B800AB6D4A /* Register.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6FC733412567685C00AB6D4A /* RegisterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC7333E2567685C00AB6D4A /* RegisterViewController.h */; };
+		6FC733422567685C00AB6D4A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7333F2567685C00AB6D4A /* RegisterViewController.m */; };
+		6FC733432567685C00AB6D4A /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC733402567685C00AB6D4A /* RegisterViewController.xib */; };
+		6FC7334F2567A10400AB6D4A /* Home.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC7334D2567A10400AB6D4A /* Home.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC733522567A10400AB6D4A /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC7334B2567A10400AB6D4A /* Home.framework */; };
+		6FC733532567A10400AB6D4A /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC7334B2567A10400AB6D4A /* Home.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6FC7335D2567A11F00AB6D4A /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC7335A2567A11F00AB6D4A /* HomeViewController.h */; };
+		6FC7335E2567A11F00AB6D4A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7335B2567A11F00AB6D4A /* HomeViewController.m */; };
+		6FC7335F2567A11F00AB6D4A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC7335C2567A11F00AB6D4A /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FC7331B2567664D00AB6D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FC732E325674F4E00AB6D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC733152567664D00AB6D4A;
+			remoteInfo = Login;
+		};
+		6FC73335256767B800AB6D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FC732E325674F4E00AB6D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC7332F256767B800AB6D4A;
+			remoteInfo = Register;
+		};
+		6FC733502567A10400AB6D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FC732E325674F4E00AB6D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC7334A2567A10400AB6D4A;
+			remoteInfo = Home;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6FC733222567664D00AB6D4A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6FC7331E2567664D00AB6D4A /* Login.framework in Embed Frameworks */,
+				6FC73338256767B800AB6D4A /* Register.framework in Embed Frameworks */,
+				6FC733532567A10400AB6D4A /* Home.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6FC732EB25674F4E00AB6D4A /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,10 +87,52 @@
 		6FC732FD25674F4F00AB6D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FC732FF25674F4F00AB6D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC7330025674F4F00AB6D4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FC733162567664D00AB6D4A /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC733182567664D00AB6D4A /* Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		6FC733192567664D00AB6D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC733242567666600AB6D4A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6FC733252567666600AB6D4A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6FC733262567666600AB6D4A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		6FC73330256767B800AB6D4A /* Register.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Register.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC73332256767B800AB6D4A /* Register.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		6FC73333256767B800AB6D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC7333E2567685C00AB6D4A /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		6FC7333F2567685C00AB6D4A /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		6FC733402567685C00AB6D4A /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		6FC7334B2567A10400AB6D4A /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC7334D2567A10400AB6D4A /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		6FC7334E2567A10400AB6D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC7335A2567A11F00AB6D4A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6FC7335B2567A11F00AB6D4A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6FC7335C2567A11F00AB6D4A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6FC732E825674F4E00AB6D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC7331D2567664D00AB6D4A /* Login.framework in Frameworks */,
+				6FC73337256767B800AB6D4A /* Register.framework in Frameworks */,
+				6FC733522567A10400AB6D4A /* Home.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC733132567664D00AB6D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC7332D256767B800AB6D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC733482567A10400AB6D4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				6FC732ED25674F4E00AB6D4A /* Application */,
+				6FC733172567664D00AB6D4A /* Login */,
+				6FC73331256767B800AB6D4A /* Register */,
+				6FC7334C2567A10400AB6D4A /* Home */,
 				6FC732EC25674F4E00AB6D4A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				6FC732EB25674F4E00AB6D4A /* Application.app */,
+				6FC733162567664D00AB6D4A /* Login.framework */,
+				6FC73330256767B800AB6D4A /* Register.framework */,
+				6FC7334B2567A10400AB6D4A /* Home.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,7 +182,73 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		6FC733172567664D00AB6D4A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6FC733182567664D00AB6D4A /* Login.h */,
+				6FC733192567664D00AB6D4A /* Info.plist */,
+				6FC733242567666600AB6D4A /* LoginViewController.h */,
+				6FC733252567666600AB6D4A /* LoginViewController.m */,
+				6FC733262567666600AB6D4A /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6FC73331256767B800AB6D4A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				6FC73332256767B800AB6D4A /* Register.h */,
+				6FC73333256767B800AB6D4A /* Info.plist */,
+				6FC7333E2567685C00AB6D4A /* RegisterViewController.h */,
+				6FC7333F2567685C00AB6D4A /* RegisterViewController.m */,
+				6FC733402567685C00AB6D4A /* RegisterViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		6FC7334C2567A10400AB6D4A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6FC7334D2567A10400AB6D4A /* Home.h */,
+				6FC7334E2567A10400AB6D4A /* Info.plist */,
+				6FC7335A2567A11F00AB6D4A /* HomeViewController.h */,
+				6FC7335B2567A11F00AB6D4A /* HomeViewController.m */,
+				6FC7335C2567A11F00AB6D4A /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FC733112567664D00AB6D4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC7331A2567664D00AB6D4A /* Login.h in Headers */,
+				6FC733272567666600AB6D4A /* LoginViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC7332B256767B800AB6D4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC733412567685C00AB6D4A /* RegisterViewController.h in Headers */,
+				6FC73334256767B800AB6D4A /* Register.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC733462567A10400AB6D4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC7335D2567A11F00AB6D4A /* HomeViewController.h in Headers */,
+				6FC7334F2567A10400AB6D4A /* Home.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6FC732EA25674F4E00AB6D4A /* Application */ = {
@@ -86,15 +258,73 @@
 				6FC732E725674F4E00AB6D4A /* Sources */,
 				6FC732E825674F4E00AB6D4A /* Frameworks */,
 				6FC732E925674F4E00AB6D4A /* Resources */,
+				6FC733222567664D00AB6D4A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6FC7331C2567664D00AB6D4A /* PBXTargetDependency */,
+				6FC73336256767B800AB6D4A /* PBXTargetDependency */,
+				6FC733512567A10400AB6D4A /* PBXTargetDependency */,
 			);
 			name = Application;
 			productName = Application;
 			productReference = 6FC732EB25674F4E00AB6D4A /* Application.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6FC733152567664D00AB6D4A /* Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC7331F2567664D00AB6D4A /* Build configuration list for PBXNativeTarget "Login" */;
+			buildPhases = (
+				6FC733112567664D00AB6D4A /* Headers */,
+				6FC733122567664D00AB6D4A /* Sources */,
+				6FC733132567664D00AB6D4A /* Frameworks */,
+				6FC733142567664D00AB6D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Login;
+			productName = Login;
+			productReference = 6FC733162567664D00AB6D4A /* Login.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FC7332F256767B800AB6D4A /* Register */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC73339256767B800AB6D4A /* Build configuration list for PBXNativeTarget "Register" */;
+			buildPhases = (
+				6FC7332B256767B800AB6D4A /* Headers */,
+				6FC7332C256767B800AB6D4A /* Sources */,
+				6FC7332D256767B800AB6D4A /* Frameworks */,
+				6FC7332E256767B800AB6D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Register;
+			productName = Register;
+			productReference = 6FC73330256767B800AB6D4A /* Register.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FC7334A2567A10400AB6D4A /* Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC733562567A10400AB6D4A /* Build configuration list for PBXNativeTarget "Home" */;
+			buildPhases = (
+				6FC733462567A10400AB6D4A /* Headers */,
+				6FC733472567A10400AB6D4A /* Sources */,
+				6FC733482567A10400AB6D4A /* Frameworks */,
+				6FC733492567A10400AB6D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Home;
+			productName = Home;
+			productReference = 6FC7334B2567A10400AB6D4A /* Home.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -105,6 +335,15 @@
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					6FC732EA25674F4E00AB6D4A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					6FC733152567664D00AB6D4A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					6FC7332F256767B800AB6D4A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					6FC7334A2567A10400AB6D4A = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -123,6 +362,9 @@
 			projectRoot = "";
 			targets = (
 				6FC732EA25674F4E00AB6D4A /* Application */,
+				6FC733152567664D00AB6D4A /* Login */,
+				6FC7332F256767B800AB6D4A /* Register */,
+				6FC7334A2567A10400AB6D4A /* Home */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +377,30 @@
 				6FC732FE25674F4F00AB6D4A /* LaunchScreen.storyboard in Resources */,
 				6FC732FB25674F4F00AB6D4A /* Assets.xcassets in Resources */,
 				6FC732F925674F4E00AB6D4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC733142567664D00AB6D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC733292567666600AB6D4A /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC7332E256767B800AB6D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC733432567685C00AB6D4A /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC733492567A10400AB6D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC7335F2567A11F00AB6D4A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +418,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6FC733122567664D00AB6D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC733282567666600AB6D4A /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC7332C256767B800AB6D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC733422567685C00AB6D4A /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC733472567A10400AB6D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC7335E2567A11F00AB6D4A /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FC7331C2567664D00AB6D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FC733152567664D00AB6D4A /* Login */;
+			targetProxy = 6FC7331B2567664D00AB6D4A /* PBXContainerItemProxy */;
+		};
+		6FC73336256767B800AB6D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FC7332F256767B800AB6D4A /* Register */;
+			targetProxy = 6FC73335256767B800AB6D4A /* PBXContainerItemProxy */;
+		};
+		6FC733512567A10400AB6D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FC7334A2567A10400AB6D4A /* Home */;
+			targetProxy = 6FC733502567A10400AB6D4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6FC732F725674F4E00AB6D4A /* Main.storyboard */ = {
@@ -322,6 +630,162 @@
 			};
 			name = Release;
 		};
+		6FC733202567664D00AB6D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z2NTZ6G9FR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Login/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jliussuweno.Login;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FC733212567664D00AB6D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z2NTZ6G9FR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Login/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jliussuweno.Login;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FC7333A256767B800AB6D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z2NTZ6G9FR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Register/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jliussuweno.Register;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FC7333B256767B800AB6D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z2NTZ6G9FR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Register/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jliussuweno.Register;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FC733542567A10400AB6D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z2NTZ6G9FR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Home/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jliussuweno.Home;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6FC733552567A10400AB6D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z2NTZ6G9FR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Home/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jliussuweno.Home;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +803,33 @@
 			buildConfigurations = (
 				6FC7330525674F4F00AB6D4A /* Debug */,
 				6FC7330625674F4F00AB6D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC7331F2567664D00AB6D4A /* Build configuration list for PBXNativeTarget "Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC733202567664D00AB6D4A /* Debug */,
+				6FC733212567664D00AB6D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC73339256767B800AB6D4A /* Build configuration list for PBXNativeTarget "Register" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC7333A256767B800AB6D4A /* Debug */,
+				6FC7333B256767B800AB6D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC733562567A10400AB6D4A /* Build configuration list for PBXNativeTarget "Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC733542567A10400AB6D4A /* Debug */,
+				6FC733552567A10400AB6D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
