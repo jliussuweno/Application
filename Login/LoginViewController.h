@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "RegisterViewController.h"
+#import "HomeViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
