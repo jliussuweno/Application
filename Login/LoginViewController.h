@@ -7,7 +7,6 @@
 
 #import <UIKit/UIKit.h>
 #import "RegisterViewController.h"
-#import "HomeViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet UIButton *loginButton;
 @property (weak, nonatomic) IBOutlet UIButton *registerButton;
+- (void) ShowAlert:(NSString *)Message;
 @end
 
 NS_ASSUME_NONNULL_END

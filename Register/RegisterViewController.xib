@@ -10,6 +10,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController">
             <connections>
+                <outlet property="confirmPasswordTextField" destination="lul-24-6Ay" id="9dt-th-UyX"/>
+                <outlet property="emailTextField" destination="at5-NR-cX8" id="kC0-8C-3yH"/>
+                <outlet property="nameTextField" destination="ktn-1I-ZeH" id="UsA-BB-HsP"/>
+                <outlet property="passwordTextField" destination="ZrD-zO-IXH" id="oTT-QP-QXH"/>
+                <outlet property="userIDTextField" destination="TRn-lw-VrG" id="Tq6-ko-SRi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -78,7 +83,7 @@
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZrD-zO-IXH">
                             <rect key="frame" x="187" y="0.0" width="187" height="34"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                         </textField>
                     </subviews>
                 </stackView>
@@ -94,7 +99,7 @@
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lul-24-6Ay">
                             <rect key="frame" x="187" y="0.0" width="187" height="34"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                         </textField>
                     </subviews>
                 </stackView>
@@ -111,10 +116,16 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4U-BF-zN6">
                             <rect key="frame" x="0.0" y="0.0" width="187" height="30"/>
                             <state key="normal" title="LOGIN"/>
+                            <connections>
+                                <action selector="loginButtonPressed:" destination="-1" eventType="touchUpInside" id="5X4-Lb-ghr"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lL-Z2-SnH">
                             <rect key="frame" x="187" y="0.0" width="187" height="30"/>
                             <state key="normal" title="REGISTER"/>
+                            <connections>
+                                <action selector="registerButtonPressed:" destination="-1" eventType="touchUpInside" id="4tt-B9-jps"/>
+                            </connections>
                         </button>
                     </subviews>
                 </stackView>
